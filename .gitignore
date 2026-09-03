@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.local
+google-service-account*.json
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+data/*.xlsx
+*.log
+.DS_Store
