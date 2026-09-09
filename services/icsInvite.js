@@ -22,7 +22,7 @@ function buildAppointmentInvite({ uid, customerName, customerEmail, customerPhon
   const lines = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//Reliable Flow Plumbing//Appointment Booking//EN',
+    'PRODID:-//Plumbing Co.//Appointment Booking//EN',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
     'BEGIN:VEVENT',

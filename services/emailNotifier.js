@@ -30,15 +30,15 @@ async function sendCustomerConfirmation(appointment) {
     const { error } = await resend.emails.send({
       from: FROM_EMAIL,
       to: appointment.customer_email,
-      subject: 'We received your appointment request — Towne Plumber',
+      subject: 'We received your appointment request — Plumbing Co.',
       html: `
         <h2>Thanks, ${escapeHtml(appointment.customer_name)}!</h2>
         <p>We've received your appointment request and a member of our team will reach out shortly to confirm the details.</p>
         <p><strong>Requested time:</strong> ${escapeHtml(appointment.requested_time)}</p>
         ${appointment.service_type ? `<p><strong>Service:</strong> ${escapeHtml(appointment.service_type)}</p>` : ''}
         <p><strong>Phone on file:</strong> ${escapeHtml(appointment.customer_phone)}</p>
-        <p>Need to make a change? Call us at (770) 257-7503.</p>
-        <p>&mdash; Towne Plumber</p>
+        <p>Need to make a change? Call us at (555) 555-5555.</p>
+        <p>&mdash; Plumbing Co.</p>
       `,
     });
 

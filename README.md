@@ -1,11 +1,13 @@
-## Plumbing Site and Appointment Booking Platform
+# Plumbing Site and Appointment Booking Platform
 
 A full-stack web app for a plumbing business. Customers request appointments from
 the public site; staff manage each request through its lifecycle
 (**pending → confirmed → completed**) from a password-protected admin dashboard.
 
-> Personal project. The branding and imagery are used to build a realistic demo;
-> this is not an official site for any business.
+> Stock template. All company name, contact details, imagery, and copy are
+> placeholders (`Plumbing Co.`, `(555) 555-5555`, `info@example.com`,
+> `images/placeholder*.svg`, `[year]`, `#00000000`) meant to be replaced with real
+> branding before launch.
 
 ## Features
 
