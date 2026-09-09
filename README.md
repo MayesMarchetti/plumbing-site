@@ -1,4 +1,4 @@
-Plumbing Site and Appointment Booking Platform
+## Plumbing Site and Appointment Booking Platform
 
 A full-stack web app for a plumbing business. Customers request appointments from
 the public site; staff manage each request through its lifecycle
