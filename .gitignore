@@ -9,3 +9,5 @@ data/*.db-shm
 data/*.xlsx
 *.log
 .DS_Store
+
+.vercel
